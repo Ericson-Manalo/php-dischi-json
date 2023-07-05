@@ -13,7 +13,7 @@ createApp({
                 params: {
                     }
                 })
-                .then(function (response) {
+                .then((response) => {
                     this.disks = response.data;
                     console.log(response.data);
                 })
