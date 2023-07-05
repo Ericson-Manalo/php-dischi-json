@@ -23,16 +23,19 @@
         <main>
             <div class="container">
                 <div class="cards-container">
-                    <div class="card">
-                        <div class="card-content">
-                            
-                        </div>
+                    <div class="card" v-for="disk in disks">
+                        <article class="card-content text-center">
+                            <img src="" alt="">
+                            <h1>
+                            </h1>
+                            <p>
+                                123
+                            </p>
+                            <p>
+                                242
+                            </p>
+                        </article>
                     </div>
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
 
 
                 </div>
