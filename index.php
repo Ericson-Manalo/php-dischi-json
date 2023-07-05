@@ -16,6 +16,9 @@
 </head>
 <body>
     
+    <div id="app">
+        <h1>ciao</h1>
+    </div>
 
     <script src="./script/script.js"></script>
 </body>
