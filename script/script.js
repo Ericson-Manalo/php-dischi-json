@@ -3,7 +3,8 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            apiUrl : './server.php'
+            apiUrl : './server.php',
+            disks : []
         }
     },
     methods: {
@@ -13,6 +14,7 @@ createApp({
                     }
                 })
                 .then(function (response) {
+                    this.disks = response.data;
                     console.log(response);
                 })
                 .catch(function (error) {
