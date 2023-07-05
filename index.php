@@ -25,15 +25,17 @@
                 <div class="cards-container">
                     <div class="card" v-for="(disk, index) in disks" :key="index">
                         <article class="card-content text-center">
-                            <img src="" alt="">
+                            <img :src="disk.poster" alt="">
                             <h1>
                                 {{disk.title}}
                             </h1>
-                            <p>
+                            <p class="author">
                                 {{disk.author}}
                             </p>
-                            <p>
-                                {{disk.year}}
+                            <p class="year">
+                                <strong>
+                                    {{disk.year}}
+                                </strong>
                             </p>
                         </article>
                     </div>

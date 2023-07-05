@@ -1,5 +1,5 @@
-h1{
-    color: red;
+body{
+    background-color: #1d2d3c;
 }
 
 header{
@@ -20,15 +20,38 @@ header{
 
 .card{
     width: calc(100% / 3);
-    background-color: red;
-    height: 350px;
+    height: 390px;
     justify-content: center;
     align-items: center;
+    background-color: #1d2d3c;
+    border: none;
 }
 
 .card-content{
-    width: 250px;
-    height: 300px;
-    background-color: blue;
+    width: 275px;
+    height: 350px;
+    background-color: #112030;
+    color: white;
+    border-radius: 3px;
+}
 
+
+img{
+    width: 180px;
+    height: 180px;
+    margin-top: 1rem;
+}
+
+h1{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+p.author{
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+
+p.year{
+    font-size: 1rem;
 }
