@@ -15,6 +15,8 @@
     <title>PHP Dischi Json</title>
 </head>
 <body>
-    <h1>ciao</h1>
+    
+
+    <script src="./script/script.js"></script>
 </body>
 </html>
