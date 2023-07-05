@@ -15,11 +15,34 @@
     <title>PHP Dischi Json</title>
 </head>
 <body>
-    
     <div id="app">
-        <h1>ciao</h1>
-    </div>
+        
+        <header>
 
+        </header>
+        <main>
+            <div class="container">
+                <div class="cards-container">
+                    <div class="card">
+                        <div class="card-content">
+                            
+                        </div>
+                    </div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+
+
+                </div>
+                
+            </div>
+        </main> 
+
+
+
+    </div>
     <script src="./script/script.js"></script>
 </body>
 </html>
